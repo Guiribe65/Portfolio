@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68deg, rgb(27, 26, 26) 15%, rgb(44, 128, 255) 85%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Sarala", serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;   
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    margin-top: 0.4px solid whitesmoke;
+}
