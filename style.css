@@ -9,8 +9,10 @@
 }
 
 body {
+    height: 100vh;
     font-size: 100%;
     background: linear-gradient(68deg, rgb(27, 26, 26) 15%, rgb(44, 128, 255) 85%);
+    /* background-repeat: no-repeat; */
 }
 
 .cabecalho {
